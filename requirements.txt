@@ -1,0 +1,16 @@
+Packages needed
+
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import SGDClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import pickle
+from sklearn.metrics import roc_curve 
